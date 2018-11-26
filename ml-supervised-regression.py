@@ -30,3 +30,4 @@ regressor.fit(train_X,train_Y)
 #print the coeffecients
 print (regressor.coef_)
 print (regressor.intercept_)
+print (r2_score(test_Y, regressor.predict(test_X)))
